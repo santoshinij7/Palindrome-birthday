@@ -253,6 +253,8 @@ function reverseString(str) {
                   counterPlus +
                   " days behind.";
           }
-      }
+      }else {
+        result.innerText = "Please enter birthday and check."
+    }
   }
   showButton.addEventListener("click", clickHandler);
